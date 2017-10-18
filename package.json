@@ -1,0 +1,24 @@
+{
+  "name": "aes128",
+  "version": "0.0.1",
+  "description": "Simple aes-128 implementation written by Node.js, CBC mode default",
+  "scripts": {
+    "test": "babel-node test",
+    "start": "babel-node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/lightj/aes128"
+  },
+  "keywords": [
+    "aes"
+  ],
+  "author": "leichtjoon",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "colors": "^1.1.2"
+  }
+}
